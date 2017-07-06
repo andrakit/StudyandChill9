@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Study and Chill</string>
+    <string name="Now">Now Playing...</string>
+    <string name="Search">Dive</string>
+    <string name="Buy">Enjoy the wave of relax</string>
+    <string name="piano_sonata_no_2_in_f_major_k_280_ii_adagio">Piano Sonata No.2 in F-Major, K. 280: II. Adagio</string>
+    <string name="this_activity_displays_which_song_is_being_played_it_has_3_buttons_skip_previous_play_pause_and_skip_next">This activity displays which song is being played.It has 3 buttons: skip previous, play/pause and skip next</string>
+    <string name="huge">User chooses from a variety of songs. There are listed the name of the songs and the prices and also 3 buttons: back, home and add item</string>
+    <string name="do_you_want_to_study_or_to_chill_why_not_both">Do you want to study or to chill? Why not both?</string>
+    <string name="piano_concerto_no_17_in_g_major_k453_i_allegro">Piano Concerto No. 17 in G major, K453: I. Allegro</string>
+    <string name="heartburn">Heartburn</string>
+    <string name="masters_of_classical_music_beethoven_full_album">Masters of Classical Music (Beethoven) Full Album</string>
+    <string name="clarinet_concerto_movt_2">Clarinet Concerto Movt 2</string>
+    <string name="_0_70_euro">0.70 euro</string>
+    <string name="_24_euro">24 euro</string>
+    <string name="_0_50_euro">0.50 euro</string>
+    <string name="this_activity_represents_the_homepage_which_displays_the_list_of_songs">This activity represents the homepage, which displays the list of songs.</string>
+    <string name="study_chill_choose">Study. Chill. Choose:</string>
+    <string name="mozart_piano_sonata_no_2_in_f_major_k_280_ii_adagio">Mozart- Piano Sonata No.2 in F-Major, K. 280: II. Adagio</string>
+    <string name="mozart_piano_sonata_no_3_in_b_flat_major_k_281_ii_andante_amoroso">Mozart- Piano Sonata No.3 in B-Flat Major, K. 281: II. Andante Amoroso</string>
+    <string name="mozart_eine_kleine_nachtmusik">Mozart- Eine kleine Nachtmusik</string>
+    <string name="ella_henderson_mirror_man_alex_adair_remix">Ella Henderson- Mirror Man (Alex Adair Remix)</string>
+    <string name="galantis_runaway_henry_land_remix">Galantis- Runaway (Henry Land Remix)</string>
+    <string name="duke_dumont_ocean_drive">Duke Dumont- Ocean Drive</string>
+</resources>

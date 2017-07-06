@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/max"
+    tools:context="com.example.andraburuiana.studyandchill.NowPlaying">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/this_activity_displays_which_song_is_being_played_it_has_3_buttons_skip_previous_play_pause_and_skip_next"
+    android:layout_marginBottom="@dimen/dim1"/>
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativeLayout"
+    android:layout_above="@+id/textView9"
+    android:layout_alignLeft="@+id/button5"
+    android:layout_alignStart="@+id/button5"
+    android:layout_marginLeft="@dimen/dimm"
+    android:layout_marginStart="@dimen/dimm1">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="195dp"
+        android:layout_height="298dp"
+        android:src="@drawable/poza"
+        android:layout_marginLeft="@dimen/diimm"
+        android:layout_marginStart="@dimen/dimm2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginBottom="@dimen/dimm3"
+        android:fontFamily="casual"
+        android:text="@string/Now"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/dim2" />
+</RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/play"
+        android:layout_below="@id/textView9"
+        android:layout_centerHorizontal="true">
+    </Button>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/piano_sonata_no_2_in_f_major_k_280_ii_adagio"
+        android:id="@+id/textView9"
+        android:textSize="@dimen/dim3"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"
+        android:layout_above="@+id/button5"
+
+        android:layout_marginLeft="@dimen/dimm4"
+        android:layout_marginStart="@dimen/dimm5" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/textView9"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@id/textView9"
+        android:layout_marginLeft="@dimen/dimm6"
+        android:layout_marginStart="@dimen/dimm7"
+        android:background="@drawable/pr" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sk"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:layout_marginLeft="@dimen/dimm8"
+        android:layout_marginStart="@dimen/dimm9" />
+</RelativeLayout>
